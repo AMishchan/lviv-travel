@@ -6,16 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ config('app.name', 'Laravel') }}</title>
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{asset('font-awesome-4.7.0/css/font-awesome.min.css')}}">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:image" content="/build/images/og.jpg">
-    <meta property="og:description" content="">
-    <meta name="format-detection" content="telephone=no">
-
-    <link rel="icon" type="image/png" href="{{ asset('favicon/favicon.png') }}">
-
     <link rel="stylesheet" href="{{ asset('css/main.css') }}"/>
 
 </head>
@@ -57,7 +50,7 @@
                 <div class="row-flex row-flex--middle">
                     <div class="col-md-5">
                         <div class="header__logo">
-                            <a href="index.html"><img src="images/lviv-logo-sprite.png" alt=""></a>
+                            <a href="/"><img src="images/lviv-logo-sprite.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col p-0 px-onehalf-md">
@@ -75,7 +68,7 @@
                 </div>
             </div>
             <div class="col">
-                <a href="#" class="nav-link" data-menu="search"><i class="icon-search"></i><span class="hidden-sm hidden-xs"></span></a>
+                <a href="#" class="nav-link" data-menu="search"><i class="fa fa-search" aria-hidden="true"></i><span class="hidden-sm hidden-xs"></span></a>
 
                 <div class="dropdown header__lang hidden-xs hidden-sm">
                     <button class="dropdown-toggle nav-link" type="button" data-toggle="dropdown">Eng</button>
@@ -166,13 +159,13 @@
                         <span class="mr-2 fw-bold visible-md-inline-block">Слідкуй за нами</span>
                         <ul class="social">
                             <li>
-                                <a href="#" class="btn-social"><i class="icon-facebook"></i></a>
+                                <a href="#" class="btn-social"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social"><i class="icon-instagram"></i></a>
+                                <a href="#" class="btn-social"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social"><i class="icon-twitter"></i></a>
+                                <a href="#" class="btn-social"><i class="fa fa-twitter-square"></i></a>
                             </li>
                         </ul>          </div>
                 </div>

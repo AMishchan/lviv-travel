@@ -1,5 +1,6 @@
 @extends('layouts.front')
 @section('content')
+    <body class='home-page'>
     <div class="main-menu">
         <div class="container">
             <div class="main-menu-close"></div>
@@ -18,17 +19,19 @@
                                     <div class="col-sm-6 col-md-6 col-lg-4">
                                         <a href="#" class="card ">
                                             <div class="card__img">
-                                                <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg" data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg" alt="" class="blurryload">
+                                                <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg"
+                                                     data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg"
+                                                     alt="" class="blurryload">
                                             </div>
-
-
 
 
                                             <div class="card__overlay">
                                                 <div class="card__description ">
                                                     <div class="card__type label label--red">Новини</div>
 
-                                                    <div class="card__title">Метеорологи прогнозують у Львові найсніжнішу зиму за останні 12 років</div>
+                                                    <div class="card__title">Метеорологи прогнозують у Львові
+                                                        найсніжнішу зиму за останні 12 років
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -37,17 +40,19 @@
                                     <div class="col-sm-6 col-md-6 col-lg-4">
                                         <a href="#" class="card ">
                                             <div class="card__img">
-                                                <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg" data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg" alt="" class="blurryload">
+                                                <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg"
+                                                     data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg"
+                                                     alt="" class="blurryload">
                                             </div>
-
-
 
 
                                             <div class="card__overlay">
                                                 <div class="card__description ">
                                                     <div class="card__type label label--red">Новини</div>
 
-                                                    <div class="card__title">Метеорологи прогнозують у Львові найсніжнішу зиму за останні 12 років</div>
+                                                    <div class="card__title">Метеорологи прогнозують у Львові
+                                                        найсніжнішу зиму за останні 12 років
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -56,17 +61,19 @@
                                     <div class="col-lg-4 visible-lg">
                                         <a href="#" class="card ">
                                             <div class="card__img">
-                                                <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg" data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg" alt="" class="blurryload">
+                                                <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg"
+                                                     data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg"
+                                                     alt="" class="blurryload">
                                             </div>
-
-
 
 
                                             <div class="card__overlay">
                                                 <div class="card__description ">
                                                     <div class="card__type label label--red">Новини</div>
 
-                                                    <div class="card__title">Метеорологи прогнозують у Львові найсніжнішу зиму за останні 12 років</div>
+                                                    <div class="card__title">Метеорологи прогнозують у Львові
+                                                        найсніжнішу зиму за останні 12 років
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -79,7 +86,8 @@
                     </div>
                     <div class="col-md-3 col-lg-3 hidden-xs hidden-sm">
                         <div class="h3 fw-black mb-1">Lviv City Card</div>
-                        <p class="text-secondary text-small">Не втрачайте час - подорожуйте з нами економно і комфортно! <br><br>
+                        <p class="text-secondary text-small">Не втрачайте час - подорожуйте з нами економно і комфортно!
+                            <br><br>
                             Чекайте новий мобільний додаток City Card Travel і нашу цифрову дисконтну картку.</p>
                         <a href="#" class="btn btn--green">Дізнатися більше</a>
                     </div>
@@ -119,105 +127,105 @@
                                                 <img src="images/card-place-image-1.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Міська Ратуша</span>
-                                        </a>                </div>
+                                        </a></div>
                                     <div class="col-sm-6 col-md-4 col-lg-3">
                                         <a href="#" class="card card--place ">
                                             <div class="card__img">
                                                 <img src="images/card-place-image-2.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Парк Костюшки</span>
-                                        </a>                </div>
+                                        </a></div>
                                     <div class="col-sm-6 col-md-4 col-lg-3">
                                         <a href="#" class="card card--place ">
                                             <div class="card__img">
                                                 <img src="images/card-place-image-3.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Природничий музей</span>
-                                        </a>                </div>
+                                        </a></div>
                                     <div class="col-sm-6 col-md-4 col-lg-3">
                                         <a href="#" class="card card--place ">
                                             <div class="card__img">
                                                 <img src="images/card-place-image-4.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Домініканський собор</span>
-                                        </a>                </div>
+                                        </a></div>
                                     <div class="col-sm-6 col-md-4 col-lg-3">
                                         <a href="#" class="card card--place ">
                                             <div class="card__img">
                                                 <img src="images/card-place-image-1.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Міська Ратуша</span>
-                                        </a>                </div>
+                                        </a></div>
                                     <div class="col-sm-6 col-md-4 col-lg-3">
                                         <a href="#" class="card card--place ">
                                             <div class="card__img">
                                                 <img src="images/card-place-image-2.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Парк Костюшки</span>
-                                        </a>                </div>
+                                        </a></div>
                                     <div class="col-sm-6 col-md-4 col-lg-3">
                                         <a href="#" class="card card--place ">
                                             <div class="card__img">
                                                 <img src="images/card-place-image-3.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Природничий музей</span>
-                                        </a>                </div>
+                                        </a></div>
                                     <div class="col-sm-6 col-md-4 col-lg-3">
                                         <a href="#" class="card card--place ">
                                             <div class="card__img">
                                                 <img src="images/card-place-image-4.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Домініканський собор</span>
-                                        </a>                </div>
+                                        </a></div>
                                     <div class="col-sm-6 col-md-4 col-lg-3">
                                         <a href="#" class="card card--place ">
                                             <div class="card__img">
                                                 <img src="images/card-place-image-1.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Міська Ратуша</span>
-                                        </a>                </div>
+                                        </a></div>
                                     <div class="col-sm-6 col-md-4 col-lg-3 hidden-sm">
                                         <a href="#" class="card card--place ">
                                             <div class="card__img">
                                                 <img src="images/card-place-image-2.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Парк Костюшки</span>
-                                        </a>                </div>
+                                        </a></div>
                                     <div class="col-sm-6 col-md-4 col-lg-3 hidden-sm">
                                         <a href="#" class="card card--place ">
                                             <div class="card__img">
                                                 <img src="images/card-place-image-3.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Природничий музей</span>
-                                        </a>                </div>
+                                        </a></div>
                                     <div class="col-sm-6 col-md-4 col-lg-3 hidden-sm">
                                         <a href="#" class="card card--place ">
                                             <div class="card__img">
                                                 <img src="images/card-place-image-4.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Домініканський собор</span>
-                                        </a>                </div>
+                                        </a></div>
                                     <div class="col-sm-6 col-md-4 col-lg-3 hidden-sm">
                                         <a href="#" class="card card--place ">
                                             <div class="card__img">
                                                 <img src="images/card-place-image-1.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Міська Ратуша</span>
-                                        </a>                </div>
+                                        </a></div>
                                     <div class="col-sm-6 col-md-4 col-lg-3 hidden-sm">
                                         <a href="#" class="card card--place ">
                                             <div class="card__img">
                                                 <img src="images/card-place-image-2.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Парк Костюшки</span>
-                                        </a>                </div>
+                                        </a></div>
                                     <div class="col-sm-6 col-md-4 col-lg-3">
                                         <a href="#" class="card card--place card__colored card__colored--green">
                                             <div class="card__img">
                                                 <img src="images/card-place-image-3.jpg" alt="">
                                             </div>
                                             <span class="center-absolute">Більше пам&#x27;яток</span>
-                                        </a>                </div>
+                                        </a></div>
                                 </div>
                             </div>
                         </div>
@@ -243,7 +251,7 @@
                         <div class="h3 fw-black mb-2">Шукати</div>
                         <form action="" class="form-search form-search--violet">
                             <input type="text" placeholder="Шукати: aртисти, події">
-                            <button class="btn"><i class="icon-search"></i></button>
+                            <button class="btn"><i class="fa fa-search"></i></button>
                         </form>
                     </div>
                     <div class="col-md-9 col-lg-9 hidden-xs">
@@ -254,17 +262,19 @@
                                     <div class="col-sm-6 col-md-6 col-lg-4">
                                         <a href="#" class="card ">
                                             <div class="card__img">
-                                                <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg" data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg" alt="" class="blurryload">
+                                                <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg"
+                                                     data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg"
+                                                     alt="" class="blurryload">
                                             </div>
-
-
 
 
                                             <div class="card__overlay">
                                                 <div class="card__description ">
                                                     <div class="card__type label label--red">Новини</div>
 
-                                                    <div class="card__title">Метеорологи прогнозують у Львові найсніжнішу зиму за останні 12 років</div>
+                                                    <div class="card__title">Метеорологи прогнозують у Львові
+                                                        найсніжнішу зиму за останні 12 років
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -273,17 +283,19 @@
                                     <div class="col-sm-6 col-md-6 col-lg-4">
                                         <a href="#" class="card ">
                                             <div class="card__img">
-                                                <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg" data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg" alt="" class="blurryload">
+                                                <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg"
+                                                     data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg"
+                                                     alt="" class="blurryload">
                                             </div>
-
-
 
 
                                             <div class="card__overlay">
                                                 <div class="card__description ">
                                                     <div class="card__type label label--red">Новини</div>
 
-                                                    <div class="card__title">Метеорологи прогнозують у Львові найсніжнішу зиму за останні 12 років</div>
+                                                    <div class="card__title">Метеорологи прогнозують у Львові
+                                                        найсніжнішу зиму за останні 12 років
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -292,17 +304,19 @@
                                     <div class="col-lg-4 visible-lg">
                                         <a href="#" class="card ">
                                             <div class="card__img">
-                                                <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg" data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg" alt="" class="blurryload">
+                                                <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg"
+                                                     data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg"
+                                                     alt="" class="blurryload">
                                             </div>
-
-
 
 
                                             <div class="card__overlay">
                                                 <div class="card__description ">
                                                     <div class="card__type label label--red">Новини</div>
 
-                                                    <div class="card__title">Метеорологи прогнозують у Львові найсніжнішу зиму за останні 12 років</div>
+                                                    <div class="card__title">Метеорологи прогнозують у Львові
+                                                        найсніжнішу зиму за останні 12 років
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -434,7 +448,8 @@
                     </div>
                     <div>
                         <p class="text-secondary mb-3">
-                            Вікові традиції, смачні й ароматні розваги, свято "Пампуха", <br>різдвяні ярмарки на вуличках Львова!
+                            Вікові традиції, смачні й ароматні розваги, свято "Пампуха", <br>різдвяні ярмарки на
+                            вуличках Львова!
                         </p>
                     </div>
                     <a href="#" class="btn btn--green">Програма святкувань</a>
@@ -449,7 +464,8 @@
                     </div>
                     <div>
                         <p class="text-secondary mb-3">
-                            Поділіться своїм досвідом перебування у Львові заповнивши цю <br>он-лайн форму! Ваш відгук важливий для нас!
+                            Поділіться своїм досвідом перебування у Львові заповнивши цю <br>он-лайн форму! Ваш відгук
+                            важливий для нас!
                         </p>
                     </div>
                     <a href="#" class="btn btn--green">Заповнити</a>
@@ -515,7 +531,9 @@
                 <div class="col-sm-6 col-md-4">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg" data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg"
+                                 data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg" alt=""
+                                 class="blurryload">
                         </div>
 
                         <div class="card__date label label--date label--violet">
@@ -524,14 +542,15 @@
                         </div>
 
 
-
                         <div class="card__overlay">
                             <div class="card__description card__description--short">
                                 <div class="card__type label label--violet">концерт</div>
 
                                 <div class="card__title">ОЛЕКСАНДР БОЖИК</div>
                                 <ul class="card__info">
-                                    <li><i class="icon-location"></i>FESTrepublic, Старознесенська, 24-26</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>FESTrepublic,
+                                        Старознесенська, 24-26
+                                    </li>
 
                                 </ul>
                             </div>
@@ -542,7 +561,9 @@
                 <div class="col-sm-6 col-md-4">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-2.jpg" data-lg="images/card-image-2.jpg" data-md="images/card-image-2.jpg" data-sm="images/card-image-2.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-2.jpg" data-lg="images/card-image-2.jpg"
+                                 data-md="images/card-image-2.jpg" data-sm="images/card-image-2.jpg" alt=""
+                                 class="blurryload">
                         </div>
 
 
@@ -557,7 +578,7 @@
 
                                 <div class="card__title">Кумпель</div>
                                 <ul class="card__info">
-                                    <li><i class="icon-location"></i>Львів, Площа Ринок, 1</li>
+                                    <li><<i class="fa fa-map-marker" aria-hidden="true"></i>Львів, Площа Ринок, 1</li>
 
                                 </ul>
                             </div>
@@ -569,7 +590,9 @@
                 <div class="col-sm-6 col-md-4">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-3.jpg" data-lg="images/card-image-3.jpg" data-md="images/card-image-3.jpg" data-sm="images/card-image-3.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-3.jpg" data-lg="images/card-image-3.jpg"
+                                 data-md="images/card-image-3.jpg" data-sm="images/card-image-3.jpg" alt=""
+                                 class="blurryload">
                         </div>
 
 
@@ -584,7 +607,7 @@
 
                                 <div class="card__title">Хмільний дім Роберта Домса</div>
                                 <ul class="card__info">
-                                    <li><i class="icon-location"></i>Львів, Площа Ринок, 1</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Львів, Площа Ринок, 1</li>
 
                                 </ul>
                             </div>
@@ -595,7 +618,9 @@
                 <div class="col-sm-6 col-md-6 col-lg-3">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-4.jpg" data-lg="images/card-image-4.jpg" data-md="images/card-image-4.jpg" data-sm="images/card-image-4.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-4.jpg" data-lg="images/card-image-4.jpg"
+                                 data-md="images/card-image-4.jpg" data-sm="images/card-image-4.jpg" alt=""
+                                 class="blurryload">
                         </div>
 
 
@@ -610,7 +635,7 @@
 
                                 <div class="card__title">Віденська кав’ярня</div>
                                 <ul class="card__info">
-                                    <li><i class="icon-location"></i>Львів, Площа Ринок, 1</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Львів, Площа Ринок, 1</li>
 
                                 </ul>
                             </div>
@@ -621,7 +646,9 @@
                 <div class="col-sm-6 col-md-6 col-lg-3 hidden-xs hidden-sm">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-5.jpg" data-lg="images/card-image-5.jpg" data-md="images/card-image-5.jpg" data-sm="images/card-image-5.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-5.jpg" data-lg="images/card-image-5.jpg"
+                                 data-md="images/card-image-5.jpg" data-sm="images/card-image-5.jpg" alt=""
+                                 class="blurryload">
                         </div>
 
                         <div class="card__date label label--date label--orange">
@@ -630,14 +657,13 @@
                         </div>
 
 
-
                         <div class="card__overlay">
                             <div class="card__description ">
                                 <div class="card__type label label--orange">Екскурсії</div>
 
                                 <div class="card__title">Екскурсія &quot;Львів - місто кави і шоколаду&quot;</div>
                                 <ul class="card__info">
-                                    <li><i class="icon-location"></i>Львів, Площа Ринок, 1</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Львів, Площа Ринок, 1</li>
 
                                 </ul>
                             </div>
@@ -648,17 +674,19 @@
                 <div class="col-md-6 hidden-xs hidden-sm hidden-md">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-6.jpg" data-lg="images/card-image-6.jpg" data-md="images/card-image-6.jpg" data-sm="images/card-image-6.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-6.jpg" data-lg="images/card-image-6.jpg"
+                                 data-md="images/card-image-6.jpg" data-sm="images/card-image-6.jpg" alt=""
+                                 class="blurryload">
                         </div>
-
-
 
 
                         <div class="card__overlay">
                             <div class="card__description card__description--short">
                                 <div class="card__type label label--red">путівник</div>
 
-                                <div class="card__title">Львів готується до міжнародного дня кави та складає пам&#x27;ятку кавомана</div>
+                                <div class="card__title">Львів готується до міжнародного дня кави та складає пам&#x27;ятку
+                                    кавомана
+                                </div>
                             </div>
                         </div>
 
@@ -675,38 +703,47 @@
             <h2 class="section__title mb-0">Про Львів</h2>
             <div class="content-slider-nav"></div>
             <div class="content-slider">
-                <div class="content-slider__slide" data-title="Краса" style="background-image: url(images/content-slider-image.jpg);">
+                <div class="content-slider__slide" data-title="Краса"
+                     style="background-image: url(images/content-slider-image.jpg);">
                     <div class="slide-content">
                         <div class="h1 text-white mb-2">Культура</div>
-                        <p class="text-secondary text-white mb-2">Вікові традиції, смачні й ароматні розваги, свято "Пампуха", різдвяні ярмарки на вуличках Львова !</p>
+                        <p class="text-secondary text-white mb-2">Вікові традиції, смачні й ароматні розваги, свято
+                            "Пампуха", різдвяні ярмарки на вуличках Львова !</p>
                         <a href="#" class="btn btn--green">Читати</a>
                     </div>
                 </div>
 
-                <div class="content-slider__slide" data-title="Культура" style="background-image: url(images/content-slider-image.jpg);">
+                <div class="content-slider__slide" data-title="Культура"
+                     style="background-image: url(images/content-slider-image.jpg);">
                     <div class="slide-content">
                         <div class="h1 text-white mb-2">Культура</div>
-                        <p class="text-secondary text-white mb-2">Вікові традиції, смачні й ароматні розваги, свято "Пампуха", різдвяні ярмарки на вуличках Львова !</p>
+                        <p class="text-secondary text-white mb-2">Вікові традиції, смачні й ароматні розваги, свято
+                            "Пампуха", різдвяні ярмарки на вуличках Львова !</p>
                         <a href="#" class="btn btn--green">Читати</a>
                     </div>
                 </div>
 
-                <div class="content-slider__slide" data-title="Мистецтво" style="background-image: url(images/content-slider-image.jpg);">
+                <div class="content-slider__slide" data-title="Мистецтво"
+                     style="background-image: url(images/content-slider-image.jpg);">
                     <div class="slide-content">
                         <div class="h1 text-white mb-2">Культура</div>
-                        <p class="text-secondary text-white mb-2">Вікові традиції, смачні й ароматні розваги, свято "Пампуха", різдвяні ярмарки на вуличках Львова !</p>
+                        <p class="text-secondary text-white mb-2">Вікові традиції, смачні й ароматні розваги, свято
+                            "Пампуха", різдвяні ярмарки на вуличках Львова !</p>
                         <a href="#" class="btn btn--green">Читати</a>
                     </div>
                 </div>
 
-                <div class="content-slider__slide" data-title="Душа" style="background-image: url(images/content-slider-image.jpg);">
+                <div class="content-slider__slide" data-title="Душа"
+                     style="background-image: url(images/content-slider-image.jpg);">
                     <div class="slide-content">
                         <div class="h1 text-white mb-2">Культура</div>
-                        <p class="text-secondary text-white mb-2">Вікові традиції, смачні й ароматні розваги, свято "Пампуха", різдвяні ярмарки на вуличках Львова !</p>
+                        <p class="text-secondary text-white mb-2">Вікові традиції, смачні й ароматні розваги, свято
+                            "Пампуха", різдвяні ярмарки на вуличках Львова !</p>
                         <a href="#" class="btn btn--green">Читати</a>
                     </div>
                 </div>
-            </div>  </section>
+            </div>
+        </section>
     </div>
     <div class="container">
         <section class="section">
@@ -732,7 +769,8 @@
                                 <h3>Автобусом</h3>
                             </a>
                         </li>
-                    </ul>      </div>
+                    </ul>
+                </div>
                 <div class="col-sm-6">
                     <h2 class="section__title">Де зупинитись?</h2>
                     <ul class="row-flex row-flex--wrap links-list">
@@ -754,7 +792,8 @@
                                 <h3>Апартаменти</h3>
                             </a>
                         </li>
-                    </ul>      </div>
+                    </ul>
+                </div>
             </div>
         </section>
 
@@ -766,24 +805,29 @@
                         <div class="text-center card--info__content">
                             <img src="images/icons/c-icon-star.svg" alt="">
                             <div class="card__title">На каву до Львова</div>
-                            <p class="text-secondary">Філіжанка львівської кави – це не лише горнятко чорного запашною напою, а й дух самого старого Львова, його душа і гордість, історія та віковічні традиції, які знову і знову оживають з кожним ковтком.</p>
+                            <p class="text-secondary">Філіжанка львівської кави – це не лише горнятко чорного запашною
+                                напою, а й дух самого старого Львова, його душа і гордість, історія та віковічні
+                                традиції, які знову і знову оживають з кожним ковтком.</p>
                             <a href="#" class="btn btn--green">Дізнатися більше</a>
                         </div>
-                    </div>      </div>
+                    </div>
+                </div>
                 <div class="col-sm-6">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-6.jpg" data-lg="images/card-image-6.jpg" data-md="images/card-image-6.jpg" data-sm="images/card-image-6.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-6.jpg" data-lg="images/card-image-6.jpg"
+                                 data-md="images/card-image-6.jpg" data-sm="images/card-image-6.jpg" alt=""
+                                 class="blurryload">
                         </div>
-
-
 
 
                         <div class="card__overlay">
                             <div class="card__description card__description--short">
                                 <div class="card__type label label--red">путівник</div>
 
-                                <div class="card__title">Львів готується до міжнародного дня кави та складає пам&#x27;ятку кавомана</div>
+                                <div class="card__title">Львів готується до міжнародного дня кави та складає пам&#x27;ятку
+                                    кавомана
+                                </div>
                             </div>
                         </div>
 
@@ -792,7 +836,9 @@
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg" data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg"
+                                 data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg" alt=""
+                                 class="blurryload">
                         </div>
 
                         <div class="card__date label label--date label--violet">
@@ -801,14 +847,15 @@
                         </div>
 
 
-
                         <div class="card__overlay">
                             <div class="card__description ">
                                 <div class="card__type label label--violet">концерт</div>
 
                                 <div class="card__title">ОЛЕКСАНДР БОЖИК</div>
                                 <ul class="card__info">
-                                    <li><i class="icon-location"></i>FESTrepublic, Старознесенська, 24-26</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>FESTrepublic,
+                                        Старознесенська, 24-26
+                                    </li>
 
                                 </ul>
                             </div>
@@ -819,7 +866,9 @@
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-5.jpg" data-lg="images/card-image-5.jpg" data-md="images/card-image-5.jpg" data-sm="images/card-image-5.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-5.jpg" data-lg="images/card-image-5.jpg"
+                                 data-md="images/card-image-5.jpg" data-sm="images/card-image-5.jpg" alt=""
+                                 class="blurryload">
                         </div>
 
                         <div class="card__date label label--date label--orange">
@@ -828,14 +877,13 @@
                         </div>
 
 
-
                         <div class="card__overlay">
                             <div class="card__description ">
                                 <div class="card__type label label--orange">Екскурсії</div>
 
                                 <div class="card__title">Екскурсія &quot;Львів - місто кави і шоколаду&quot;</div>
                                 <ul class="card__info">
-                                    <li><i class="icon-location"></i>Львів, Площа Ринок, 1</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Львів, Площа Ринок, 1</li>
 
                                 </ul>
                             </div>
@@ -846,7 +894,9 @@
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-2.jpg" data-lg="images/card-image-2.jpg" data-md="images/card-image-2.jpg" data-sm="images/card-image-2.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-2.jpg" data-lg="images/card-image-2.jpg"
+                                 data-md="images/card-image-2.jpg" data-sm="images/card-image-2.jpg" alt=""
+                                 class="blurryload">
                         </div>
 
 
@@ -861,7 +911,7 @@
 
                                 <div class="card__title">Кумпель</div>
                                 <ul class="card__info">
-                                    <li><i class="icon-location"></i>Львів, Площа Ринок, 1</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Львів, Площа Ринок, 1</li>
 
                                 </ul>
                             </div>
@@ -872,7 +922,9 @@
                 <div class="col-sm-6 col-md-4 col-lg-3 hidden-md">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-3.jpg" data-lg="images/card-image-3.jpg" data-md="images/card-image-3.jpg" data-sm="images/card-image-3.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-3.jpg" data-lg="images/card-image-3.jpg"
+                                 data-md="images/card-image-3.jpg" data-sm="images/card-image-3.jpg" alt=""
+                                 class="blurryload">
                         </div>
 
 
@@ -887,7 +939,7 @@
 
                                 <div class="card__title">Хмільний дім Роберта Домса</div>
                                 <ul class="card__info">
-                                    <li><i class="icon-location"></i>Львів, Площа Ринок, 1</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Львів, Площа Ринок, 1</li>
 
                                 </ul>
                             </div>
@@ -910,24 +962,28 @@
                         <div class="text-center card--info__content">
                             <img src="images/icons/c-icon-star.svg" alt="">
                             <div class="card__title">Львів австрійський</div>
-                            <p class="text-secondary">За час панування Австрійської імперії у Львові потужно вирувало культурне життя. Було збудовано два театри європейського значення…</p>
+                            <p class="text-secondary">За час панування Австрійської імперії у Львові потужно вирувало
+                                культурне життя. Було збудовано два театри європейського значення…</p>
                             <a href="#" class="btn btn--green">Дізнатися більше</a>
                         </div>
-                    </div>      </div>
+                    </div>
+                </div>
                 <div class="col-sm-6">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-6.jpg" data-lg="images/card-image-6.jpg" data-md="images/card-image-6.jpg" data-sm="images/card-image-6.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-6.jpg" data-lg="images/card-image-6.jpg"
+                                 data-md="images/card-image-6.jpg" data-sm="images/card-image-6.jpg" alt=""
+                                 class="blurryload">
                         </div>
-
-
 
 
                         <div class="card__overlay">
                             <div class="card__description card__description--short">
                                 <div class="card__type label label--red">путівник</div>
 
-                                <div class="card__title">Львів готується до міжнародного дня кави та складає пам&#x27;ятку кавомана</div>
+                                <div class="card__title">Львів готується до міжнародного дня кави та складає пам&#x27;ятку
+                                    кавомана
+                                </div>
                             </div>
                         </div>
 
@@ -936,7 +992,9 @@
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg" data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg"
+                                 data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg" alt=""
+                                 class="blurryload">
                         </div>
 
                         <div class="card__date label label--date label--violet">
@@ -945,14 +1003,15 @@
                         </div>
 
 
-
                         <div class="card__overlay">
                             <div class="card__description ">
                                 <div class="card__type label label--violet">концерт</div>
 
                                 <div class="card__title">ОЛЕКСАНДР БОЖИК</div>
                                 <ul class="card__info">
-                                    <li><i class="icon-location"></i>FESTrepublic, Старознесенська, 24-26</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>FESTrepublic,
+                                        Старознесенська, 24-26
+                                    </li>
 
                                 </ul>
                             </div>
@@ -963,7 +1022,9 @@
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-5.jpg" data-lg="images/card-image-5.jpg" data-md="images/card-image-5.jpg" data-sm="images/card-image-5.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-5.jpg" data-lg="images/card-image-5.jpg"
+                                 data-md="images/card-image-5.jpg" data-sm="images/card-image-5.jpg" alt=""
+                                 class="blurryload">
                         </div>
 
                         <div class="card__date label label--date label--orange">
@@ -972,14 +1033,13 @@
                         </div>
 
 
-
                         <div class="card__overlay">
                             <div class="card__description ">
                                 <div class="card__type label label--orange">Екскурсії</div>
 
                                 <div class="card__title">Екскурсія &quot;Львів - місто кави і шоколаду&quot;</div>
                                 <ul class="card__info">
-                                    <li><i class="icon-location"></i>Львів, Площа Ринок, 1</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Львів, Площа Ринок, 1</li>
 
                                 </ul>
                             </div>
@@ -990,7 +1050,9 @@
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-2.jpg" data-lg="images/card-image-2.jpg" data-md="images/card-image-2.jpg" data-sm="images/card-image-2.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-2.jpg" data-lg="images/card-image-2.jpg"
+                                 data-md="images/card-image-2.jpg" data-sm="images/card-image-2.jpg" alt=""
+                                 class="blurryload">
                         </div>
 
 
@@ -1005,7 +1067,7 @@
 
                                 <div class="card__title">Кумпель</div>
                                 <ul class="card__info">
-                                    <li><i class="icon-location"></i>Львів, Площа Ринок, 1</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Львів, Площа Ринок, 1</li>
 
                                 </ul>
                             </div>
@@ -1016,7 +1078,9 @@
                 <div class="col-sm-6 col-md-4 col-lg-3 hidden-md">
                     <a href="#" class="card ">
                         <div class="card__img">
-                            <img src="images/card-image-3.jpg" data-lg="images/card-image-3.jpg" data-md="images/card-image-3.jpg" data-sm="images/card-image-3.jpg" alt="" class="blurryload">
+                            <img src="images/card-image-3.jpg" data-lg="images/card-image-3.jpg"
+                                 data-md="images/card-image-3.jpg" data-sm="images/card-image-3.jpg" alt=""
+                                 class="blurryload">
                         </div>
 
 
@@ -1031,7 +1095,7 @@
 
                                 <div class="card__title">Хмільний дім Роберта Домса</div>
                                 <ul class="card__info">
-                                    <li><i class="icon-location"></i>Львів, Площа Ринок, 1</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Львів, Площа Ринок, 1</li>
 
                                 </ul>
                             </div>
@@ -1048,41 +1112,49 @@
                 <div class="col-xs-6 col-sm-3">
                     <a href="#" class="card card--sq">
                         <div class="card__img">
-                            <img src="images/card-coloured-image-1.jpg" data-lg="images/card-coloured-image-1.jpg" data-md="images/card-coloured-image-1.jpg" data-sm="images/card-coloured-image-1.jpg" alt="" class="blurryload">
+                            <img src="images/card-coloured-image-1.jpg" data-lg="images/card-coloured-image-1.jpg"
+                                 data-md="images/card-coloured-image-1.jpg" data-sm="images/card-coloured-image-1.jpg"
+                                 alt="" class="blurryload">
                         </div>
                         <div class="card__colored card__colored--green">
                             <div class="h3 center-absolute text-white text-center p-1">City Card</div>
                         </div>
-                    </a>      </div>
+                    </a></div>
                 <div class="col-xs-6 col-sm-3">
                     <a href="#" class="card card--sq">
                         <div class="card__img">
-                            <img src="images/card-coloured-image-2.jpg" data-lg="images/card-coloured-image-2.jpg" data-md="images/card-coloured-image-2.jpg" data-sm="images/card-coloured-image-2.jpg" alt="" class="blurryload">
+                            <img src="images/card-coloured-image-2.jpg" data-lg="images/card-coloured-image-2.jpg"
+                                 data-md="images/card-coloured-image-2.jpg" data-sm="images/card-coloured-image-2.jpg"
+                                 alt="" class="blurryload">
                         </div>
                         <div class="card__colored card__colored--red">
                             <div class="h3 center-absolute text-white text-center p-1">ТІЦ</div>
                         </div>
-                    </a>      </div>
+                    </a></div>
                 <div class="col-xs-6 col-sm-3">
                     <a href="#" class="card card--sq">
                         <div class="card__img">
-                            <img src="images/card-coloured-image-3.jpg" data-lg="images/card-coloured-image-3.jpg" data-md="images/card-coloured-image-3.jpg" data-sm="images/card-coloured-image-3.jpg" alt="" class="blurryload">
+                            <img src="images/card-coloured-image-3.jpg" data-lg="images/card-coloured-image-3.jpg"
+                                 data-md="images/card-coloured-image-3.jpg" data-sm="images/card-coloured-image-3.jpg"
+                                 alt="" class="blurryload">
                         </div>
                         <div class="card__colored card__colored--orange">
                             <div class="h3 center-absolute text-white text-center p-1">Транспорт</div>
                         </div>
-                    </a>      </div>
+                    </a></div>
                 <div class="col-xs-6 col-sm-3">
                     <a href="#" class="card card--sq">
                         <div class="card__img">
-                            <img src="images/card-coloured-image-4.jpg" data-lg="images/card-coloured-image-4.jpg" data-md="images/card-coloured-image-4.jpg" data-sm="images/card-coloured-image-4.jpg" alt="" class="blurryload">
+                            <img src="images/card-coloured-image-4.jpg" data-lg="images/card-coloured-image-4.jpg"
+                                 data-md="images/card-coloured-image-4.jpg" data-sm="images/card-coloured-image-4.jpg"
+                                 alt="" class="blurryload">
                         </div>
                         <div class="card__colored card__colored--green">
                             <div class="h3 center-absolute text-white text-center p-1">Путівники та карти</div>
                         </div>
-                    </a>      </div>
+                    </a></div>
             </div>
         </section>
-
     </div>
+    </body>>
 @endsection

@@ -8119,7 +8119,7 @@ a.label:hover {
 }
 
 .header--small {
-    background: #fff;
+    background: #fff !important;
     -webkit-transition: margin .3s, background .3s;
     -o-transition: margin .3s, background .3s;
     -moz-transition: margin .3s, background .3s;
@@ -9429,3 +9429,6 @@ a.label:hover {
 }
 
 /*# sourceMappingURL=style.css.map */
+.now-container{
+    margin-top: 100px;
+}
