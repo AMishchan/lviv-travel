@@ -6490,9 +6490,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 .h3, .main-menu .menu__nav li a, h3 {
-    font-size: 24px;
+    font-size: 21px;
     line-height: 24px;
-    font-weight: 700
+    letter-spacing: 1.1px;
+    font-weight: 600
 }
 
 @media (max-width: 767px) {
@@ -6607,7 +6608,9 @@ p {
 }
 
 .fw-black {
-    font-weight: 900
+    /*margin-top: 3em;*/
+    font-weight: 900;
+    color: #fff;
 }
 
 .fw-bold {
@@ -7228,12 +7231,12 @@ input::-webkit-input-placeholder {
 }
 
 .form-search--violet input {
-    border-color: #982479
+    border-color: #daced7
 }
 
 .form-search--violet button {
-    background: #982479;
-    border-color: #982479
+    background: #daced7;
+    border-color: #daced7
 }
 
 .form-search--violet button:hover {
@@ -7241,9 +7244,17 @@ input::-webkit-input-placeholder {
 }
 
 .form-search--violet button:hover i {
-    color: #982479
+    color:#352a33
+}
+.header--main .fa-search:before {
+
+    color: #ffffff;
 }
 
+.header--small .fa-search:before {    
+
+    color: #352a33 !important;
+}
 .form-search--green input {
     border-color: #008e38
 }
@@ -7381,7 +7392,7 @@ input::-webkit-input-placeholder {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    min-height: 380px;
+    min-height: 270px;
     background-position: 50%;
     background-repeat: no-repeat;
     -moz-background-size: cover;
@@ -7390,9 +7401,31 @@ input::-webkit-input-placeholder {
     -o-transition: .3s;
     -moz-transition: .3s;
     transition: .3s;
-    overflow: hidden
-}
 
+}
+.card-marker-date-text{
+    font-size: 11px;
+    margin-bottom: 17px;
+}
+.card-marker-date{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    text-align: -moz-center;
+    margin-bottom: 15px;
+}
+.card-marker-month{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-align: -moz-center;
+}
+.card-marker-time-text{
+    font-size: 11px;
+}
+.card-marker-time{
+    font-size: 20px;
+}
 @media (max-width: 767px) {
     .card {
         min-height: 280px
@@ -7475,8 +7508,8 @@ input::-webkit-input-placeholder {
 }
 
 .card__description {
-    background-color: #fff;
-    padding: 10px 15px;
+    background: rgba(27, 27, 27, 0.26);
+    padding: 8px 7px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -7495,7 +7528,59 @@ input::-webkit-input-placeholder {
         max-width: 100%
     }
 }
+.slider-row{
+    /*margin-left: 0!important;*/
+}
+.card-small{
+    display: block;
+    position: relative;
+    margin-bottom: 30px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    min-height: 190px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
 
+}
+.card-overlay-small{
+    padding: 10px 1px 2px !important;
+}
+.card-marker-date-small{
+    text-align: center;
+    text-align: -moz-center;
+    font-size: 21px;
+    margin-top: 10px;
+}
+.card-marker-month-small{
+    font-size: 12px;
+    text-align: center;
+    text-align: -moz-center;
+}
+.card__title-small{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+.card-block-class{
+    color: #fff;
+    font-size: 12px;
+}
+.card-img-marker-small{
+    width: 70px;
+    height: 70px;
+    top: -6px;
+    color: #fffde5;
+    position: absolute;
+    font-family: inherit;
+    background-image: linear-gradient(180deg, #000000b8, #000);
+    display: block;
+    z-index: 100;
+    line-height: 10px;
+    padding: 6px;
+    margin-left: 10px;
+}
 .card__type {
     position: absolute;
     bottom: 100%;
@@ -7509,12 +7594,25 @@ input::-webkit-input-placeholder {
 }
 
 .card__title {
-    color: #352a33;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 26px
+    color: #fffde7;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
 }
-
+.card-img-marker{
+    width: 140px;
+    height: 140px;
+    top: -10px;
+    color: #fffde5;
+    position: absolute;
+    font-family: inherit;
+    background-image: linear-gradient(180deg, #000000b8, #000);
+    display: block;
+    z-index: 100;
+    line-height: 10px;
+    padding: 10px;
+    margin-left: 20px;
+}
 .card__info {
     padding: 0;
     margin: 10px 0 0
@@ -7644,9 +7742,12 @@ input::-webkit-input-placeholder {
     background-image: -o-linear-gradient(top, transparent 0, #000 100%);
     background-image: linear-gradient(180deg, transparent, #000)
 }
-
+.card-img-now{
+    /*height: 60%;*/
+}
 .card--place span {
     width: 100%;
+    margin-left: 25px;
     padding: 15px
 }
 
@@ -7900,7 +8001,7 @@ a.label:hover {
     -moz-transition: .3s;
     transition: .3s;
     display: inline-block;
-    line-height: 40px;
+    line-height: 30px;
     color: #fff;
     border-bottom: 2px solid transparent
 }
@@ -8239,6 +8340,7 @@ a.label:hover {
 
 .main-menu.active {
     opacity: 1;
+    background-color: #352a33;
     height: 100vh;
     overflow-y: auto
 }
@@ -8308,6 +8410,8 @@ a.label:hover {
 }
 
 .main-menu .menu__nav li a {
+        color: #fff;
+    font-size: 18px;
     font-weight: 900
 }
 
@@ -8335,6 +8439,7 @@ a.label:hover {
 }
 
 .main-menu .menu__subnav {
+    border-color:#daced7;
     padding-top: 20px
 }
 
@@ -8342,13 +8447,14 @@ a.label:hover {
     margin: 0 0 15px
 }
 
-.main-menu .menu__subnav li a {
+.menu-trig  li a {
     font-size: 20px;
-    font-weight: 700
+    font-weight: 600 !important;
+    color: #fff
 }
 
 .b-l {
-    border-left: 2px solid #d8d8d8;
+
     padding-left: 30px
 }
 
@@ -8360,8 +8466,7 @@ a.label:hover {
 }
 
 .b-r {
-    border-right: 2px solid #d8d8d8;
-    padding-right: 30px
+
 }
 
 @media (max-width: 991px) {
@@ -8410,7 +8515,14 @@ a.label:hover {
 .btn-social:hover .icon-instagram:before {
     color: #fa28c9
 }
-
+.now-slider .slick-slide{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.planning-slider .slick-slide{
+    margin-right: 15px;
+    margin-left: 15px;
+}
 .slick-dots {
     padding: 0;
     margin: 0;
@@ -8535,7 +8647,7 @@ a.label:hover {
 
 .slick-dots-tabs li {
     display: inline-block;
-    margin: 20px 5px
+    margin: 20px 1.5em
 }
 
 .slick-dots-tabs li:first-child {
@@ -8543,7 +8655,7 @@ a.label:hover {
 }
 
 .slick-dots-tabs li a {
-    color: #0072b8;
+    color: #8b929b;
     font-weight: 700;
     letter-spacing: .1px;
     cursor: pointer;
@@ -8554,7 +8666,8 @@ a.label:hover {
 }
 
 .slick-dots-tabs li.slick-active a {
-    color: #8b929b
+    color: #0072b8;
+    font-size: 1.1em;
 }
 
 .main-slider {
@@ -9427,8 +9540,134 @@ a.label:hover {
         display: none
     }
 }
-
-/*# sourceMappingURL=style.css.map */
-.now-container{
-    margin-top: 100px;
+/*==========================================================sliders*/
+.pop-sl-img, .recom-sl-img{
+    margin-left: 10px;
+    margin-right: 10px;
 }
+.pop-sl-img img, .recom-sl-img img{
+width:100%
+}
+.desc-lviv-sl{
+    margin-top: -21px;
+    margin-left: 12px;
+    background-image: linear-gradient(180deg, #000000b8, #000);
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+#planning .card-img-marker-small {
+    background-image: none;
+    background-color: #fff !important;
+
+}
+/*==========================================================endsliders*/
+
+/*==========================================================popups*/
+#lviv .card-img-marker-small{
+    background-image: none;
+    background-color: #fff;
+}
+#lviv h3{
+    font-weight: 600 !important;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color:#fff
+}
+#lviv h3:first-child{
+    margin-top: 2px !important;
+}
+#lviv .row:first-child{
+    padding-bottom: 70px;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #fff;
+}
+#lviv h3:last-child{
+    margin-top: 3em;
+}
+#events .form-search{
+        width: 27em;
+    margin-left: 2em;
+    margin-top: 6em;
+}
+.events-card-time{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    color: #fff;
+        width: 100%;
+        z-index: 1;
+        background-color: #100d10;
+}
+.events-card-time span{
+        font-size: 20px;
+        margin-left: 1em;
+        font-weight: 600;
+
+}
+#events .card {
+    min-height: 220px !important;
+}
+#planning .card__description{
+    margin-bottom: 1em;
+}
+#planning .planning-slider .card__description{
+    margin-bottom: 0;
+}
+#planning .card__title{
+    font-size: 21px;
+}
+#planning h3{
+    color:#fff;
+}
+#planning .card-hotel-name{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+#planning .card-hotel-type{
+color: #fff
+}
+#lviv .card-lviv-name{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+#lviv .card-lviv-type{
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff
+}
+#business .row h3, #planning .row h3{
+    font-size:24px;
+    margin-bottom: 1em;
+    color:#fff;
+}
+
+#planning .row:first-child, #business .row:first-child{
+    margin-bottom: 3em;
+    border-bottom: 2px solid #fff;
+}
+#business .card{
+    min-height: 220px;
+}
+.place-mark{
+    position: absolute;
+    z-index: 12;
+    right: 0px;
+    color: #fff
+}
+.place-mark span:first-child{
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8
+}
+#planning .card__description{
+    margin-bottom: 0em;
+}
+.popup-socials li a{
+    margin-top: 2em;
+    color: #fff
+}
+/*==========================================================end*/
+/*# sourceMappingURL=style.css.map */
