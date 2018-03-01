@@ -43,8 +43,8 @@
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
+                            <li><a href="{{ route('login') }}">@lang('auth.login')</a></li>
+                            <li><a href="{{ route('register') }}">@lang('auth.register')</a></li>
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -56,7 +56,7 @@
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                            Logout
+                                            @lang('auth.logout')
                                         </a>
 
                                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -66,8 +66,17 @@
                                 </ul>
                             </li>
                         @endif
+
                     </ul>
+                    <div class="dropdown header__lang hidden-xs hidden-sm">
+                        <button class="dropdown-toggle" type="button" data-toggle="dropdown">Eng</button>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a onclick="location.href='setlang/en'">English</a></li>
+                            <li><a onclick="location.href='setlang/ua'">Українська</a></li>
+                        </ul>
+                    </div>
                 </div>
+
             </div>
         </nav>
 

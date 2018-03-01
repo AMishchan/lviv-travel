@@ -9669,5 +9669,12 @@ color: #fff
     margin-top: 2em;
     color: #fff
 }
+.header__lang button {
+    color:#fff;
+    font-size: 21px;
+}
+.header--small .header__lang button{
+    color: #352a33
+}
 /*==========================================================end*/
 /*# sourceMappingURL=style.css.map */

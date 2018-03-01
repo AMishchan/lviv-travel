@@ -62,7 +62,7 @@
                                 <li><a href="#" class="nav-link" data-menu="lviv">Твій Львів</a></li>
                                 <li><a href="#" class="nav-link" data-menu="events">Події</a></li>
                                 <li><a href="#" class="nav-link" data-menu="planning">Сплануй</a></li>
-                                <li><a href="#" class="nav-link" data-menu="business">Про бізнес</a></li>
+                                <li><a href="#" class="nav-link" data-menu="business">Для бізнесу</a></li>
                                 <li><a href="#" class="nav-link visible-xs visible-sm"
                                        data-menu="languages">Languages</a></li>
                             </ul>
@@ -71,18 +71,16 @@
                 </div>
             </div>
             <div class="col">
-                <a href="#" class="nav-link" data-menu="search"><i class="fa header-search fa-search"
-                                                                   aria-hidden="true"></i><span
-                            class="hidden-sm hidden-xs"></span></a>
-
+                <a href="#" class="nav-link" data-menu="search">
+                    <i class="fa header-search fa-search" aria-hidden="true"></i>
+                    <span class="hidden-sm hidden-xs"></span></a>
                 <div class="dropdown header__lang hidden-xs hidden-sm">
-                    <button class="dropdown-toggle nav-link" type="button" data-toggle="dropdown">Eng</button>
+                    <button class="dropdown-toggle" type="button" data-toggle="dropdown">Eng</button>
                     <ul class="dropdown-menu dropdown-menu-right">
-                        <li><a href="#">Українська</a></li>
-                        <li><a href="#">English</a></li>
-                        <li><a href="#">Polski</a></li>
-                        <li><a href="#">Deutsch</a></li>
-                        <li><a href="#">Русский</a></li>
+                        <li><a onclick="location.href='setlang/en'">English</a></li>
+                        <li><a onclick="location.href='setlang/ua'">Українська</a></li>
+                        <li><a onclick="location.href='setlang/pl'">Polski</a></li>
+                        <li><a onclick="location.href='setlang/ru'">Русский</a></li>
                     </ul>
                 </div>
             </div>
@@ -505,7 +503,7 @@
                                 </div>
                             </a>
                         </div>
-                        <a href="{{route('events')}}" class="btn btn--green">Більше подій</a>
+                        <a href="{{route('your-lviv')}}" class="btn btn--green">Більше подій</a>
                     </div>
 
                 </div>
@@ -646,7 +644,7 @@
                         <input type="text" placeholder="Шукати: aртисти, події">
                         <button class="btn"><i class="fa fa-search"></i></button>
                     </form>
-                    <a href="{{route('now')}}" class="btn btn--green">Більше подій</a>
+                    <a href="{{route('events')}}" class="btn btn--green">Більше подій</a>
                 </div>
             </div>
         </div>
@@ -826,7 +824,7 @@
                                 </div>
                             </a>
                         </div>
-                        <a href="{{route('now')}}" class="btn btn--green">Більше подій</a>
+                        <a href="{{route('planning')}}" class="btn btn--green">Більше подій</a>
                     </div>
                 </div>
             </div>
@@ -1008,16 +1006,17 @@
                             </a>
                         </div>
                     </div>
-                    <a href="{{route('now')}}" class="btn btn--green">Більше подій</a>
+                    <a href="{{route('business')}}" class="btn btn--green">Більше подій</a>
                 </div>
             </div>
         </div>
         <div class="menu" id="languages">
             <a href="#" class="btn-menu-back visible-xs visible-sm">Назад</a>
             <ul class="menu__nav menu__nav--inline">
-                <li><a href="#">Українська</a></li>
-                <li><a href="#">Русский</a></li>
-                <li><a href="#">English</a></li>
+                <li><a onclick="location.href='setlang/en'">English</a></li>
+                <li><a onclick="location.href='setlang/ua'">Українська</a></li>
+                <li><a onclick="location.href='setlang/pl'">Polski</a></li>
+                <li><a onclick="location.href='setlang/ru'">Русский</a></li>
             </ul>
         </div>
         <div class="menu" id="search">
