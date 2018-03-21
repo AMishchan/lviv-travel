@@ -1,0 +1,173 @@
+a{
+    text-decoration: none !important;
+}
+
+/*====================================*landing your Lviv*/
+.your-lviv-container .main-slider__slide .container {
+    -webkit-align-self: flex-end !important;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+}
+
+.your-lviv-container .main-slider__slide .breadcrumbs {
+    margin-bottom: 10px !important;
+    color: #fff;
+
+}
+
+.landing-tab-menu li {
+    display: inline-block;
+}
+.your-lviv-container .landing-tab-menu a{
+  color:#6b6767;
+}
+
+.landing-tab-menu {
+    margin-bottom: 15px;
+}
+
+.landing-tab-menu li {
+    margin: 2px 1px;
+    padding: 5px 7px;
+    color: #6b6767;
+    background-color: rgba(175, 173, 173, 0.35);
+}
+
+.landing-desc-title {
+    font-weight: 700;
+}
+
+.whishes-list .event-name {
+    font-weight: 700;
+}
+
+.whishes-title {
+    background-color: #2a2a2a;
+    color: #fff;
+    text-align: center;
+    text-align: -moz-center;
+    padding: 8px 0;
+    margin-bottom: 0;
+}
+
+.whishes-list {
+    padding: 0px 20px;
+    margin: -24px 0 20px 0;
+}
+
+.whishes-item {
+    background-color: #b3b3b36b;
+    padding: 8px;
+    margin-bottom: 4px;
+}
+
+.watches-on-map {
+    border: 2px solid #171717;
+    padding: 7px 10px;
+}
+
+.your-lviv-container .read-more a {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #000000;
+}
+
+.categories-container {
+    padding: 1px 2px 2px 1px;
+}
+
+.categories-container .col-lg-4 .list-background-image {
+    background-repeat: no-repeat;
+    height: 250px;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+.categories-container .col-lg-4 .title-info-holder > p {
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+    position: relative;
+    /*bottom: 0;*/
+    margin-bottom: 10px;
+}
+
+.categories-container .col-lg-4 div a p {
+    color: #fffde7;
+    position: relative;
+    /*bottom: 0;*/
+    font-size: 16px;
+}
+
+.categories-container .fa-chevron-right:before {
+    top: 2px;
+    content: "\f054";
+    position: relative;
+
+}
+
+.title-info-holder {
+    position: absolute;
+    bottom: 0;
+    padding: 6px 15px;
+}
+
+.interested h2 {
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+    font-weight: 600;
+}
+
+.your-lviv-container .h3 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.interested-block {
+    background: linear-gradient(#989494, #ece6e6);
+    height: 250px;
+}
+
+.interested-info-holder {
+    padding: 12px;
+
+}
+
+.interested-info-holder > p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.interested-info-holder a p {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.interested-row {
+    margin: 25px 0 75px 0;
+}
+
+.your-lviv-container .navbar-default .navbar-nav > li > a{
+    border-bottom: 1px solid #7c7c7c73;
+    color: #656565;
+    font-size: 16px;
+    padding: 7px 2px !important;
+}
+.your-lviv-container .navbar-default {
+    border:none !important;
+}
+.your-lviv-container .navbar-default .navbar-nav > li{
+    margin: 0 7px 0 7px;
+}
+.your-lviv-container .navbar-default .navbar-nav{
+    float: none;
+    width: fit-content;
+    margin: auto;
+}
+/*====================================*landing your Lviv end*/
+
+

@@ -1,6 +1,6 @@
 @extends('layouts.front')
 @section('content')
-    <body class='home-page'>
+
     <div class="main-slider">
         <div class="main-slider__slide" style="background-image: url(images/main-slider-img-1.jpg);">
             <div class="container text-center">
@@ -718,5 +718,5 @@
             </div>
         </section>
     </div>
-    </body>>
+
 @endsection
