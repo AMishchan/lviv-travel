@@ -6608,6 +6608,7 @@ p {
 }
 
 .fw-black {
+    /*margin-top: 3em;*/
     font-weight: 900;
     color: #fff;
 }
@@ -7391,7 +7392,7 @@ input::-webkit-input-placeholder {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    min-height: 380px;
+    min-height: 270px;
     background-position: 50%;
     background-repeat: no-repeat;
     -moz-background-size: cover;
@@ -7400,9 +7401,31 @@ input::-webkit-input-placeholder {
     -o-transition: .3s;
     -moz-transition: .3s;
     transition: .3s;
-    overflow: hidden
-}
 
+}
+.card-marker-date-text{
+    font-size: 11px;
+    margin-bottom: 17px;
+}
+.card-marker-date{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    text-align: -moz-center;
+    margin-bottom: 15px;
+}
+.card-marker-month{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-align: -moz-center;
+}
+.card-marker-time-text{
+    font-size: 11px;
+}
+.card-marker-time{
+    font-size: 20px;
+}
 @media (max-width: 767px) {
     .card {
         min-height: 280px
@@ -7485,8 +7508,8 @@ input::-webkit-input-placeholder {
 }
 
 .card__description {
-    background-color: #fff;
-    padding: 10px 15px;
+    background: rgba(27, 27, 27, 0.26);
+    padding: 8px 7px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -7505,7 +7528,59 @@ input::-webkit-input-placeholder {
         max-width: 100%
     }
 }
+.slider-row{
+    /*margin-left: 0!important;*/
+}
+.card-small{
+    display: block;
+    position: relative;
+    margin-bottom: 30px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    min-height: 190px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
 
+}
+.card-overlay-small{
+    padding: 10px 1px 2px !important;
+}
+.card-marker-date-small{
+    text-align: center;
+    text-align: -moz-center;
+    font-size: 21px;
+    margin-top: 10px;
+}
+.card-marker-month-small{
+    font-size: 12px;
+    text-align: center;
+    text-align: -moz-center;
+}
+.card__title-small{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+.card-block-class{
+    color: #fff;
+    font-size: 12px;
+}
+.card-img-marker-small{
+    width: 70px;
+    height: 70px;
+    top: -6px;
+    color: #fffde5;
+    position: absolute;
+    font-family: inherit;
+    background-image: linear-gradient(180deg, #000000b8, #000);
+    display: block;
+    z-index: 100;
+    line-height: 10px;
+    padding: 6px;
+    margin-left: 10px;
+}
 .card__type {
     position: absolute;
     bottom: 100%;
@@ -7519,12 +7594,25 @@ input::-webkit-input-placeholder {
 }
 
 .card__title {
-    color: #352a33;
-    font-size: 20px;
+    color: #fffde7;
+    font-size: 14px;
     font-weight: 700;
-    line-height: 26px
+    line-height: 16px;
 }
-
+.card-img-marker{
+    width: 140px;
+    height: 140px;
+    top: -10px;
+    color: #fffde5;
+    position: absolute;
+    font-family: inherit;
+    background-image: linear-gradient(180deg, #000000b8, #000);
+    display: block;
+    z-index: 10;
+    line-height: 10px;
+    padding: 10px;
+    margin-left: 20px;
+}
 .card__info {
     padding: 0;
     margin: 10px 0 0
@@ -7654,9 +7742,12 @@ input::-webkit-input-placeholder {
     background-image: -o-linear-gradient(top, transparent 0, #000 100%);
     background-image: linear-gradient(180deg, transparent, #000)
 }
-
+.card-img-now{
+    /*height: 60%;*/
+}
 .card--place span {
     width: 100%;
+    margin-left: 25px;
     padding: 15px
 }
 
@@ -7766,6 +7857,7 @@ a.label:hover {
 }
 
 .footer {
+    margin-top: 15px;
     background: #352a33;
     color: #fff;
     padding: 50px 0 0
@@ -8356,13 +8448,14 @@ a.label:hover {
     margin: 0 0 15px
 }
 
-.main-menu .menu__subnav li a {
+.menu-trig  li a {
     font-size: 20px;
-    font-weight: 600!important;
-    color: #fff;
+    font-weight: 600 !important;
+    color: #fff
 }
 
 .b-l {
+
     padding-left: 30px
 }
 
@@ -8423,7 +8516,17 @@ a.label:hover {
 .btn-social:hover .icon-instagram:before {
     color: #fa28c9
 }
-
+.now-slider .slick-slide{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.planning-slider .slick-slide{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.landing-slick-section .content-slider{
+    height: fit-content;
+}
 .slick-dots {
     padding: 0;
     margin: 0;
@@ -8548,7 +8651,7 @@ a.label:hover {
 
 .slick-dots-tabs li {
     display: inline-block;
-    margin: 20px 5px
+    margin: 20px 1.5em
 }
 
 .slick-dots-tabs li:first-child {
@@ -9440,13 +9543,4 @@ a.label:hover {
     .c-layout .c-wrap:nth-child(4) {
         display: none
     }
-}
-
-/*# sourceMappingURL=style.css.map */
-.landing-slick-section .content-slider{
-    height: fit-content;
-}
-.slick-dots-tabs li {
-    display: inline-block;
-    margin: 20px 1.5em
 }

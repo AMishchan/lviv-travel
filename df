@@ -1,0 +1,35 @@
+[33mcommit 8420f44f539da79df83d00542ef300d997982045[m
+Author: zayander <zayander@gmail.com>
+Date:   Wed Mar 21 14:13:49 2018 +0200
+
+    your-lviv view created
+
+[33mcommit 711c9c5bcfaede5e315749fe9a6abf0136405d1b[m
+Author: zayander <zayander@gmail.com>
+Date:   Thu Mar 15 15:59:30 2018 +0200
+
+    lang and menu models, model composer made
+
+[33mcommit 7cfe81e9a8e943472603f601e809a819afb1efb6[m
+Author: zayander <zayander@gmail.com>
+Date:   Thu Mar 1 16:21:40 2018 +0200
+
+    auth users work
+
+[33mcommit d3716dcc38656997e4c77d49f750da3f0023cbed[m
+Author: zayander <zayander@gmail.com>
+Date:   Tue Feb 27 13:14:28 2018 +0200
+
+    views created
+
+[33mcommit b65ff88fe415251c68ecc38849235c3c83bb1560[m
+Author: zayander <zayander@gmail.com>
+Date:   Wed Feb 21 16:04:48 2018 +0200
+
+    header--small backgr change to fff
+
+[33mcommit 46dd4cd24bcebb31a6d0f96776ea8da97594db48[m
+Author: zayander <zayander@gmail.com>
+Date:   Mon Feb 19 19:08:03 2018 +0200
+
+    project started day 1

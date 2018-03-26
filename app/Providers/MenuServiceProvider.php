@@ -27,9 +27,10 @@ class MenuServiceProvider extends ServiceProvider
         //
     }
     public function mainMenu(){
-        View::composer('layouts.front', function($view){
+        View::composer('layouts.main-menu', function($view){
             $view->with('categories', \App\Menu::where('parent_id',
                 0)->where('published',1)->get());
         });
+     //   dd(1);
     }
 }

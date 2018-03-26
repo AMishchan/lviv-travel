@@ -1,9 +1,12 @@
 <div class="main-menu">
+        {{--{{dump($categories)}}--}}
+
     <div class="container">
         <div class="main-menu-close"></div>
         <div class="menu" id="now">
             <a href="#" class="btn-menu-back visible-xs visible-sm">Назад</a>
             <div class="row">
+
                 <div class="col-md-3 col-lg-3">
                     <ul class="menu__subnav menu-trig menu__nav">
                         <li><a href="#">Свіжі новини</a></li>

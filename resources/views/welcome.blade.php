@@ -2,38 +2,38 @@
 @section('content')
 
     <div class="main-slider">
-        <div class="main-slider__slide" style="background-image: url(images/main-slider-img-1.jpg);">
-            <div class="container text-center">
-                <div class="slide-content d-i-block text-left">
-                    <div>
-                        <div class="text-hero text-white mb-2">Різдво у Львові</div>
-                    </div>
-                    <div>
-                        <p class="text-secondary mb-3">
-                            Вікові традиції, смачні й ароматні розваги, свято "Пампуха", <br>різдвяні ярмарки на
-                            вуличках Львова!
-                        </p>
-                    </div>
-                    <a href="#" class="btn btn--green">Програма святкувань</a>
-                </div>
-            </div>
-        </div>
-        <div class="main-slider__slide" style="background-image: url(images/main-slider-img-2.jpg);">
-            <div class="container text-center">
-                <div class="slide-content d-i-block text-left">
-                    <div>
-                        <div class="text-hero text-white mb-2">Дослідження туристів</div>
-                    </div>
-                    <div>
-                        <p class="text-secondary mb-3">
-                            Поділіться своїм досвідом перебування у Львові заповнивши цю <br>он-лайн форму! Ваш відгук
-                            важливий для нас!
-                        </p>
-                    </div>
-                    <a href="#" class="btn btn--green">Заповнити</a>
-                </div>
-            </div>
-        </div>
+        {{--<div class="main-slider__slide" style="background-image: url(images/main-slider-img-1.jpg);">--}}
+            {{--<div class="container text-center">--}}
+                {{--<div class="slide-content d-i-block text-left">--}}
+                    {{--<div>--}}
+                        {{--<div class="text-hero text-white mb-2">Різдво у Львові</div>--}}
+                    {{--</div>--}}
+                    {{--<div>--}}
+                        {{--<p class="text-secondary mb-3">--}}
+                            {{--Вікові традиції, смачні й ароматні розваги, свято "Пампуха", <br>різдвяні ярмарки на--}}
+                            {{--вуличках Львова!--}}
+                        {{--</p>--}}
+                    {{--</div>--}}
+                    {{--<a href="#" class="btn btn--green">Програма святкувань</a>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="main-slider__slide" style="background-image: url(images/main-slider-img-2.jpg);">--}}
+            {{--<div class="container text-center">--}}
+                {{--<div class="slide-content d-i-block text-left">--}}
+                    {{--<div>--}}
+                        {{--<div class="text-hero text-white mb-2">Дослідження туристів</div>--}}
+                    {{--</div>--}}
+                    {{--<div>--}}
+                        {{--<p class="text-secondary mb-3">--}}
+                            {{--Поділіться своїм досвідом перебування у Львові заповнивши цю <br>он-лайн форму! Ваш відгук--}}
+                            {{--важливий для нас!--}}
+                        {{--</p>--}}
+                    {{--</div>--}}
+                    {{--<a href="#" class="btn btn--green">Заповнити</a>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
         <div class="main-slider__slide" style="background-image: url(images/main-slider-img-3.jpg);">
             <div class="container text-center">
                 <div class="row">
@@ -261,7 +261,7 @@
         </section>
     </div>
     <div class="container">
-        <section class="section">
+        <section class="section landing-slick-section">
             <h2 class="section__title mb-0">Про Львів</h2>
             <div class="content-slider-nav"></div>
             <div class="content-slider">

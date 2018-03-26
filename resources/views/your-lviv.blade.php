@@ -1,19 +1,17 @@
 @extends('layouts.front')
 @section('content')
-    <div class="your-lviv-container">
-        <div class="main-slider">
-            <div class="main-slider__slide" style="background-image: url(images/main-slider-img-1.jpg);">
-                <div class="container text-center">
 
-                    <div class="landing-banner-title">
-                        <div class="text-hero text-white ">Твій Львів</div>
-                    </div>
-                    <div class="breadcrumbs">Your-lviv/1</div>
+    <div class="events-banner div-fill-img" style="background-image: url('images/main-slider-img-1.jpg');">
+        <div class="container landing-banner-info">
 
-                </div>
+            <div class="landing-banner-title">
+                <div class="text-hero text-white ">Твій Львів</div>
             </div>
-        </div>
+            <div class="breadcrumbs banner-breadcrumbs">Головна/Твій Львів</div>
 
+        </div>
+    </div>
+    <div class="your-lviv-container">
         <div class="container">
             <div class="col-lg-3"></div>
             <div class="col-lg-6">
@@ -68,7 +66,8 @@
             </div>
             <div class="row categories-container">
                 <div class="col-lg-4">
-                    <div class="list-background-image" style="background-image: url('/images/lviv1.jpeg'); ">
+                    <div class="list-background-image div-fill-img"
+                         style="background-image: url('/images/lviv1.jpeg'); ">
                         <div class="title-info-holder">
                             <p>Їжа та напої</p>
                             <a href="#"><p>Детальніше <i class="fa fa-chevron-right" aria-hidden="true"></i></p></a>
@@ -76,7 +75,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="list-background-image" style="background-image: url('/images/lviv1.jpeg'); ">
+                    <div class="list-background-image div-fill-img"
+                         style="background-image: url('/images/lviv1.jpeg'); ">
                         <div class="title-info-holder">
                             <p>Пам’ятки</p>
                             <a href="#"><p>Детальніше <i class="fa fa-chevron-right" aria-hidden="true"></i></p></a>
@@ -84,7 +84,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="list-background-image" style="background-image: url('/images/lviv1.jpeg'); ">
+                    <div class="list-background-image div-fill-img"
+                         style="background-image: url('/images/lviv1.jpeg'); ">
                         <div class="title-info-holder">
                             <p>Музеї та Галереї</p>
                             <a href="#"><p>Детальніше <i class="fa fa-chevron-right" aria-hidden="true"></i></p></a>
@@ -92,7 +93,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="list-background-image" style="background-image: url('/images/lviv1.jpeg'); ">
+                    <div class="list-background-image div-fill-img"
+                         style="background-image: url('/images/lviv1.jpeg'); ">
                         <div class="title-info-holder">
                             <p>Атракції</p>
                             <a href="#"><p>Детальніше <i class="fa fa-chevron-right" aria-hidden="true"></i></p></a>
@@ -100,7 +102,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="list-background-image" style="background-image: url('/images/lviv1.jpeg'); ">
+                    <div class="list-background-image div-fill-img"
+                         style="background-image: url('/images/lviv1.jpeg'); ">
                         <div class="title-info-holder">
                             <p>Парки</p>
                             <a href="#"><p>Детальніше <i class="fa fa-chevron-right" aria-hidden="true"></i></p></a>
@@ -108,7 +111,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="list-background-image" style="background-image: url('/images/lviv1.jpeg'); ">
+                    <div class="list-background-image div-fill-img"
+                         style="background-image: url('/images/lviv1.jpeg'); ">
                         <div class="title-info-holder">
                             <p>Театри/Філармонії</p>
                             <a href="#"><p>Детальніше <i class="fa fa-chevron-right" aria-hidden="true"></i></p></a>
@@ -134,7 +138,7 @@
                 </div>
                 <div class="row interested-row">
                     <div class="col-lg-3">
-                        <div class="interested-block" >
+                        <div class="interested-block">
                             <div class="interested-info-holder">
                                 <a href="#"><p>Путівники</p></a>
                                 <p>Фестиваль</p>
@@ -142,7 +146,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="interested-block" >
+                        <div class="interested-block">
                             <div class="interested-info-holder">
                                 <a href="#"><p>Громадські місця</p></a>
                                 <p>Високий замок</p>
@@ -150,7 +154,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="interested-block" >
+                        <div class="interested-block">
                             <div class="interested-info-holder">
                                 <a href="#"><p>Громадські місця</p></a>
                                 <p>Високий замок</p>
@@ -158,7 +162,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="interested-block" >
+                        <div class="interested-block">
                             <div class="interested-info-holder">
                                 <a href="#"><p>Транспорт</p></a>
                                 <p>Парковки</p>

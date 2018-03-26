@@ -107,5 +107,5 @@
 </footer>
 
 <script defer src="/js/scripts.js?t=<?php echo(microtime(true)); ?>"></script>
-
+<script defer src="/libs/jquery/jquery-3.3.1.min.js?t=<?php echo(microtime(true)); ?>"></script>
 </html>

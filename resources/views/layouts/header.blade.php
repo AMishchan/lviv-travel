@@ -7,16 +7,16 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
     <!-- Fonts -->
     <link rel="stylesheet" href="{{asset('font-awesome-4.7.0/css/font-awesome.min.css')}}">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="description" content="">
     {{--<link rel="stylesheet" href="{{ asset('css/main.css') }}"/>--}}
     <link rel="stylesheet" href="/css/main.css?t=<?php echo(microtime(true)); ?>" type="text/css"/>
     <link rel="stylesheet" href="/css/landing.css?t=<?php echo(microtime(true)); ?>" type="text/css"/>
     <link href="{{ asset('libs/bootstrap/css/bootstrap-grid.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('libs/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
+    {{--<link href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">--}}
+    {{--<link href="{{ asset('libs/bootstrap/css/bootstrap.css') }}" rel="stylesheet">--}}
     <link href="{{ asset('libs/bootstrap/js/bootstrap.js') }}" rel="stylesheet">
+    <link href="{{ asset('/css/header-menu.css') }}" rel="stylesheet">
 </head>
 
 
@@ -56,7 +56,7 @@
                 <div class="row-flex row-flex--middle">
                     <div class="col-md-5">
                         <div class="header__logo">
-                            <a href="/"><img src="images/logo/lviv-logo-sprite.png" alt=""></a>
+                            <a href="/"><img src="images/lviv-logo-sprite.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col p-0 px-onehalf-md">
