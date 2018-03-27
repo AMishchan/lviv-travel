@@ -7902,9 +7902,9 @@ a.label:hover {
 }
 
 .header .nav-link {
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: .1px;
-    font-size: 20px;
+    font-size: 19px;
     -webkit-transition: .3s;
     -o-transition: .3s;
     -moz-transition: .3s;
