@@ -1,3 +1,4 @@
+
 <div class="menu" id="business">
     <a href="#" class="btn-menu-back visible-xs visible-sm">Назад</a>
     <div class="row">
@@ -157,6 +158,7 @@
                         <div class="events-card-time">
                             <span class="date">07-08</span>
                             <span class="month">Жовтня</span>
+
                         </div>
                         <div class="card__img">
                             <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg"

@@ -1,10 +1,11 @@
+
+
+
 <div class="menu" id="lviv">
     <a href="#" class="btn-menu-back visible-xs visible-sm">Назад</a>
     <div class="row">
         <div class="col-sm-5 col-md-3 col-lg-3">
-
             <ul class="menu__nav mb-4 menu-trig">
-
                 <li><a href="#">Їжа та напої</a></li>
                 <li><a href="#">Пам’ятки</a></li>
                 <li><a href="#">Музеї та Галереї</a></li>
@@ -14,9 +15,7 @@
                 <li><a href="#">Громадські місця</a></li>
                 <li><a href="#">Тури</a></li>
                 <li><a href="#">Навколо Львова</a></li>
-
             </ul>
-
             <div class="col-xs-12 col-md-6">
                 <div class="popup-socials">
                     <span class="mr-2 fw-bold visible-md-inline-block">Слідкуй за нами</span>

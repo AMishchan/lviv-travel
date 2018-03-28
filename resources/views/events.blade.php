@@ -98,7 +98,15 @@
                 </div>
                 <div class="row looking-for-event">
                     <div class="col-lg-3 calendar">
-                        <input type="date" data-date="" data-date-format="DD MMMM YYYY" value="2015-08-09">
+                            <div class="datepick_event_date">
+                                <p>Дата проведення</p>
+                                <input type="text" id="date" readonly>
+                            </div>
+                            <div class="datepick_date">
+                                <h3 class="number"></h3>
+                                <h4 class="month"></h4>
+                            </div>
+                        {{--<input type="date" data-date="" data-date-format="DD MMMM YYYY" value="2015-08-09">--}}
                     </div>
                     <div class="col-lg-6">
                         <div class="search col-lg-6">

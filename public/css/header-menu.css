@@ -106,6 +106,15 @@
     margin-bottom: 3em;
     border-bottom: 2px solid #fff;
 }
+#planning .card__overlay {
+background-image: none!important;
+}
+#planning .row .card:hover:not(.card--info):not(.card--sq){
+    box-shadow: none!important;
+}
+#planning .row .row .card__overlay  .card__description{
+background: none!important;
+}
 #business .card{
     min-height: 220px;
 }
@@ -152,6 +161,9 @@
     -moz-transition: .3s;
     transition: .3s;
 
+}
+.main-menu .card.card__moded {
+    margin-bottom: 0;
 }
 .main-menu .card-marker-date-text{
     font-size: 11px;

@@ -1,5 +1,4 @@
 <div class="menu" id="now">
-
     <a href="#" class="btn-menu-back visible-xs visible-sm">Назад</a>
     <div class="row">
 
@@ -12,6 +11,7 @@
                 <li><a href="#" style="opacity: 0.5">City Card</a></li>
             </ul>
             <br>
+
             <br>
             <br>
             <div>
@@ -197,5 +197,5 @@
             </div>
         </div>
     </div>
-
 </div>
+      

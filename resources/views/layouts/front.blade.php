@@ -3,11 +3,9 @@
 <div class="main-menu">
     <div class="container">
         <div class="main-menu-close"></div>
-        @include('layouts.main-menu-items.now')
-        @include('layouts.main-menu-items.lviv')
-        @include('layouts.main-menu-items.events')
-        @include('layouts.main-menu-items.planning')
-        @include('layouts.main-menu-items.businnes')
+        @foreach($categories as $category)
+        @include("layouts.main-menu-items.$category->template")
+        @endforeach
         <div class="menu" id="languages">
             <a href="#" class="btn-menu-back visible-xs visible-sm">Назад</a>
             <ul class="menu__nav menu__nav--inline">
@@ -50,10 +48,8 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
-
 @yield('content')
 </body>
 <footer class="footer">
@@ -161,4 +157,8 @@
 
 <script defer src="/js/scripts.js?t=<?php echo(microtime(true)); ?>"></script>
 <script defer src="/libs/jquery/jquery-3.3.1.min.js?t=<?php echo(microtime(true)); ?>"></script>
+<script defer src="/libs/jquery/jquery-3.3.1.min.js?t=<?php echo(microtime(true)); ?>"></script>
+<script defer src="/js/jquery-ui.js?t=<?php echo(microtime(true)); ?>"></script>
+<script defer src="/js/main.js?t=<?php echo(microtime(true)); ?>"></script>
+<script defer src="/libs/bootstrap/js/bootstrap.js?t=<?php echo(microtime(true)); ?>"></script>
 </html>

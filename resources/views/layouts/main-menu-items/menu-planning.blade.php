@@ -36,42 +36,42 @@
             <div class="row">
                 <h3>До Львова</h3>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                    <a href="#" class="card ">
-                        <div class="card__img card-img-now">
-                            <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg"
+                    <a href="#" class="card card__moded">
+                        <div class="card__img card-img-now card-img-now-planning">
+                            <img src="images/icons/icon-plane.svg" data-lg="images/icons/icons-plane.svg"
                                  data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg"
-                                 alt="" class="blurryload">
+                                 alt="" class="blurryload card__img_plane">
                         </div>
-                        <div class="card__overlay">
-                            <div class="card__description ">
+                        <div class="card__overlay card__overlay_moded">
+                            <div class="card__description card__description_card">
                                 <div class="card__title">Літак</div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                    <a href="#" class="card ">
-                        <div class="card__img card-img-now">
-                            <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg"
+                    <a href="#" class="card card__moded">
+                        <div class="card__img card-img-now card-img-now-planning">
+                            <img src="images/icons/icon-train.svg" data-lg="images/card-image-1.jpg"
                                  data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg"
-                                 alt="" class="blurryload">
+                                 alt="" class="blurryload card__img_train">
                         </div>
-                        <div class="card__overlay">
-                            <div class="card__description ">
+                        <div class="card__overlay card__overlay_moded">
+                            <div class="card__description card__description_card">
                                 <div class="card__title">Поїзд</div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                    <a href="#" class="card ">
-                        <div class="card__img card-img-now">
-                            <img src="images/card-image-1.jpg" data-lg="images/card-image-1.jpg"
+                    <a href="#" class="card card__moded">
+                        <div class="card__img card-img-now card-img-now-planning">
+                            <img src="images/icons/icon-bus.svg" data-lg="images/card-image-1.jpg"
                                  data-md="images/card-image-1.jpg" data-sm="images/card-image-1.jpg"
-                                 alt="" class="blurryload">
+                                 alt="" class="blurryload card__img_bus">
                         </div>
-                        <div class="card__overlay">
-                            <div class="card__description ">
+                        <div class="card__overlay card__overlay_moded">
+                            <div class="card__description card__description_card">
                                 <div class="card__title">Автобус</div>
                             </div>
                         </div>

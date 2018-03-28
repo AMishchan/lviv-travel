@@ -7,8 +7,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
     <!-- Fonts -->
     <link rel="stylesheet" href="{{asset('font-awesome-4.7.0/css/font-awesome.min.css')}}">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="description" content="">
     {{--<link rel="stylesheet" href="{{ asset('css/main.css') }}"/>--}}
     <link rel="stylesheet" href="/css/main.css?t=<?php echo(microtime(true)); ?>" type="text/css"/>
@@ -19,8 +18,6 @@
     <link href="{{ asset('libs/bootstrap/js/bootstrap.js') }}" rel="stylesheet">
     <link href="{{ asset('/css/header-menu.css') }}" rel="stylesheet">
 </head>
-
-
 {{--<div class="flex-center position-ref full-height">--}}
 {{--@if (Route::has('login'))--}}
 {{--<div class="top-right links">--}}
@@ -64,7 +61,7 @@
                         <nav class="header__nav">
                             <ul class="row-flex">
                                 @foreach($categories as $category)
-                                    <li><a href="#" class="nav-link" data-menu="{{$category->template}}">{{$category->title_ua}}</a></li>
+                                    <li><a href="#" class="nav-link" data-menu="{{$category->data_menu}}">{{$category->title_ua}}</a></li>
                                 @endforeach
                                 <li><a href="#" class="nav-link visible-xs visible-sm"
                                        data-menu="languages">Languages</a></li>
