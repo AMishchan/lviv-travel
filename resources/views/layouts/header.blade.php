@@ -7,7 +7,8 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
     <!-- Fonts -->
     <link rel="stylesheet" href="{{asset('font-awesome-4.7.0/css/font-awesome.min.css')}}">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="description" content="">
     {{--<link rel="stylesheet" href="{{ asset('css/main.css') }}"/>--}}
     <link rel="stylesheet" href="/css/main.css?t=<?php echo(microtime(true)); ?>" type="text/css"/>
@@ -62,11 +63,9 @@
                     <div class="col p-0 px-onehalf-md">
                         <nav class="header__nav">
                             <ul class="row-flex">
-                                <li><a href="#" class="nav-link" data-menu="now">Вже і зараз</a></li>
-                                <li><a href="#" class="nav-link" data-menu="lviv">Твій Львів</a></li>
-                                <li><a href="#" class="nav-link" data-menu="events">Події</a></li>
-                                <li><a href="#" class="nav-link" data-menu="planning">Сплануй</a></li>
-                                <li><a href="#" class="nav-link" data-menu="business">Для бізнесу</a></li>
+                                @foreach($categories as $category)
+                                    <li><a href="#" class="nav-link" data-menu="{{$category->template}}">{{$category->title_ua}}</a></li>
+                                @endforeach
                                 <li><a href="#" class="nav-link visible-xs visible-sm"
                                        data-menu="languages">Languages</a></li>
                             </ul>

@@ -1,6 +1,59 @@
 <body class="home-page">
 @include('layouts.header')
-@include('layouts.main-menu')
+<div class="main-menu">
+    <div class="container">
+        <div class="main-menu-close"></div>
+        @include('layouts.main-menu-items.now')
+        @include('layouts.main-menu-items.lviv')
+        @include('layouts.main-menu-items.events')
+        @include('layouts.main-menu-items.planning')
+        @include('layouts.main-menu-items.businnes')
+        <div class="menu" id="languages">
+            <a href="#" class="btn-menu-back visible-xs visible-sm">Назад</a>
+            <ul class="menu__nav menu__nav--inline">
+                <li><a onclick="location.href='setlang/en'">English</a></li>
+                <li><a onclick="location.href='setlang/ua'">Українська</a></li>
+                <li><a onclick="location.href='setlang/pl'">Polski</a></li>
+                <li><a onclick="location.href='setlang/ru'">Русский</a></li>
+            </ul>
+        </div>
+        <div class="menu" id="search">
+            <a href="#" class="btn-menu-back visible-xs visible-sm">Назад</a>
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <form action="" class="form-search form-search--green mb-4">
+                        <input type="text" placeholder="Шукати ві Львові...">
+                        <button class="btn">Шукати</button>
+                    </form>
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <div class="h3 fw-black mb-2">За категоріями</div>
+                            <a href="#" class="label label--big">Усі</a>
+                            <a href="#" class="label label--big">Культура</a>
+                            <a href="#" class="label label--big">Мистецтво</a>
+                            <a href="#" class="label label--big">Ресторація</a>
+                            <a href="#" class="label label--big">Культура</a>
+                            <a href="#" class="label label--big">Мистецтво</a>
+                            <a href="#" class="label label--big">Ресторація</a>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="h3 fw-black mb-2">Популярні запити</div>
+                            <ul class="menu__subnav pt-0">
+                                <li><a class="link link--blue" href="#">Нічні екскурсії</a></li>
+                                <li><a class="link link--blue" href="#">Львів туристичний</a></li>
+                                <li><a class="link link--blue" href="#">Криївка</a></li>
+                                <li><a class="link link--blue" href="#">Свято кави</a></li>
+                                <li><a class="link link--blue" href="#">Різдво</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 @yield('content')
 </body>
 <footer class="footer">

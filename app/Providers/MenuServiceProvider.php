@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
+use Illuminate\Support\Facades\Session;
 
 class MenuServiceProvider extends ServiceProvider
 {
@@ -27,10 +28,12 @@ class MenuServiceProvider extends ServiceProvider
         //
     }
     public function mainMenu(){
-        View::composer('layouts.main-menu', function($view){
-            $view->with('categories', \App\Menu::where('parent_id',
-                0)->where('published',1)->get());
-        });
-     //   dd(1);
+
+       View::composer("layouts.front", function($view){
+           $view->with('categories', \App\Menu::where('parent_id',0)->where('published',1)->get());
+       });
+
+
+
     }
 }
