@@ -6491,6 +6491,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 .h3, .main-menu .menu__nav li a, h3 {
     font-size: 21px;
+    color: #352a33;
     line-height: 24px;
     letter-spacing: 1.1px;
     font-weight: 600
@@ -8791,7 +8792,8 @@ a.label:hover {
 }
 
 .section__title {
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    font-weight: 900;
 }
 
 .section--gray {

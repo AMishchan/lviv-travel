@@ -1,19 +1,18 @@
 <body class="home-page">
 @include('layouts.header')
-<div class="main-menu">
+    <div class="main-menu">
     <div class="container">
         <div class="main-menu-close"></div>
-        @foreach($categories as $category)
-        @include("layouts.main-menu-items.$category->template")
+        {{--including templates for all elements of menu--}}
+        @foreach($data['categories'] as $category)
+            @include("layouts.main-menu-items.{$category['template']}")
         @endforeach
         <div class="menu" id="languages">
             <a href="#" class="btn-menu-back visible-xs visible-sm">Назад</a>
-            <ul class="menu__nav menu__nav--inline">
-                <li><a onclick="location.href='setlang/en'">English</a></li>
-                <li><a onclick="location.href='setlang/ua'">Українська</a></li>
-                <li><a onclick="location.href='setlang/pl'">Polski</a></li>
-                <li><a onclick="location.href='setlang/ru'">Русский</a></li>
-            </ul>
+            @foreach($data['languages'] as $language)
+                <li><a onclick="location.href='setlang/{{$language->code}}'">{{$language->display_name}}</a>
+                </li>
+            @endforeach
         </div>
         <div class="menu" id="search">
             <a href="#" class="btn-menu-back visible-xs visible-sm">Назад</a>
@@ -56,6 +55,7 @@
     <div class="container">
         <div class="visible-lg visible-md">
             <div class="sitemap row-flex">
+
                 <ul class="col">
                     <li><a href="#"><h3>Вже і зараз</h3></a></li>
                     <li><a href="#">Свіжі новини</a></li>
@@ -153,12 +153,7 @@
     <div class="footer__license">
         <p class="text-secondary text-small text-center m-0">2017 Lviv Travel</p>
     </div>
+
 </footer>
 
-<script defer src="/js/scripts.js?t=<?php echo(microtime(true)); ?>"></script>
-<script defer src="/libs/jquery/jquery-3.3.1.min.js?t=<?php echo(microtime(true)); ?>"></script>
-<script defer src="/libs/jquery/jquery-3.3.1.min.js?t=<?php echo(microtime(true)); ?>"></script>
-<script defer src="/js/jquery-ui.js?t=<?php echo(microtime(true)); ?>"></script>
-<script defer src="/js/main.js?t=<?php echo(microtime(true)); ?>"></script>
-<script defer src="/libs/bootstrap/js/bootstrap.js?t=<?php echo(microtime(true)); ?>"></script>
 </html>

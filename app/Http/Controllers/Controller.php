@@ -12,8 +12,5 @@ use Closure;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-    public function setLang($lang){
-        Session::put('locale', $lang);
-        return redirect()->back();
-    }
+
 }

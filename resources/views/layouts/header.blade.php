@@ -5,45 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <!-- Fonts -->
-    <link rel="stylesheet" href="{{asset('font-awesome-4.7.0/css/font-awesome.min.css')}}">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="description" content="">
-    {{--<link rel="stylesheet" href="{{ asset('css/main.css') }}"/>--}}
-    <link rel="stylesheet" href="/css/main.css?t=<?php echo(microtime(true)); ?>" type="text/css"/>
-    <link rel="stylesheet" href="/css/landing.css?t=<?php echo(microtime(true)); ?>" type="text/css"/>
+    <link rel="stylesheet" href="{{asset('font-awesome-4.7.0/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/main.css')}}?t=<?php echo(microtime(true)); ?>">
+    <link rel="stylesheet" href="{{asset('/css/landing.css')}}?t=<?php echo(microtime(true)); ?>">
     <link href="{{ asset('libs/bootstrap/css/bootstrap-grid.min.css') }}" rel="stylesheet">
-    {{--<link href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">--}}
-    {{--<link href="{{ asset('libs/bootstrap/css/bootstrap.css') }}" rel="stylesheet">--}}
-    <link href="{{ asset('libs/bootstrap/js/bootstrap.js') }}" rel="stylesheet">
-    <link href="{{ asset('/css/header-menu.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/header-menu.css')}}?t=<?php echo(microtime(true)); ?>" rel="stylesheet">
+    <script defer src="{{asset('/js/scripts.js')}}"></script>
+    <script defer src="{{asset('/libs/jquery/jquery-3.3.1.min.js')}}"></script>
+    <script defer src="{{asset('/js/main.js')}}"></script>
+    <script defer src="{{asset('/js/jquery-ui.js')}}"></script>
 </head>
-{{--<div class="flex-center position-ref full-height">--}}
-{{--@if (Route::has('login'))--}}
-{{--<div class="top-right links">--}}
-{{--@if (Auth::check())--}}
-{{--<a href="{{ url('/home') }}">Home</a>--}}
-{{--@else--}}
-{{--<a href="{{ url('/login') }}">Login</a>--}}
-{{--<a href="{{ url('/register') }}">Register</a>--}}
-{{--@endif--}}
-{{--</div>--}}
-{{--@endif--}}
-
-{{--<div class="content">--}}
-{{--<div class="title m-b-md">--}}
-{{--Laravel--}}
-{{--</div>--}}
-
-{{--<div class="links">--}}
-{{--<a href="https://laravel.com/docs">Documentation</a>--}}
-{{--<a href="https://laracasts.com">Laracasts</a>--}}
-{{--<a href="https://laravel-news.com">News</a>--}}
-{{--<a href="https://forge.laravel.com">Forge</a>--}}
-{{--<a href="https://github.com/laravel/laravel">GitHub</a>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
 <header class="header header--main">
     <div class="container">
         <div class="row-flex row-flex--between row-flex--middle">
@@ -60,8 +33,9 @@
                     <div class="col p-0 px-onehalf-md">
                         <nav class="header__nav">
                             <ul class="row-flex">
-                                @foreach($categories as $category)
-                                    <li><a href="#" class="nav-link" data-menu="{{$category->data_menu}}">{{$category->title_ua}}</a></li>
+                                {{--output all published categories--}}
+                                @foreach($data['categories'] as $category)
+                                    <li><a href="#" class="nav-link" data-menu="{{$category['data_menu']}}">{{$category['title']}}</a></li>
                                 @endforeach
                                 <li><a href="#" class="nav-link visible-xs visible-sm"
                                        data-menu="languages">Languages</a></li>
@@ -75,12 +49,11 @@
                     <i class="fa header-search fa-search" aria-hidden="true"></i>
                     <span class="hidden-sm hidden-xs"></span></a>
                 <div class="dropdown header__lang hidden-xs hidden-sm">
-                    <button class="dropdown-toggle" type="button" data-toggle="dropdown">Eng</button>
+                    <button class="dropdown-toggle" type="button" data-toggle="dropdown">{{$data['locale']}}</button>
                     <ul class="dropdown-menu dropdown-menu-right">
-                        <li><a onclick="location.href='setlang/en'">English</a></li>
-                        <li><a onclick="location.href='setlang/ua'">Українська</a></li>
-                        <li><a onclick="location.href='setlang/pl'">Polski</a></li>
-                        <li><a onclick="location.href='setlang/ru'">Русский</a></li>
+                        @foreach($data['languages'] as $language)
+                            <li><a onclick="location.href='setlang/{{$language->code}}'">{{$language->display_name}}</a></li>
+                        @endforeach
                     </ul>
                 </div>
             </div>

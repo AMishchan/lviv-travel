@@ -1,17 +1,26 @@
 <div class="menu" id="now">
     <a href="#" class="btn-menu-back visible-xs visible-sm">Назад</a>
     <div class="row">
-
         <div class="col-md-3 col-lg-3">
             <ul class="menu__subnav menu-trig menu__nav">
-                <li><a href="#">Свіжі новини</a></li>
-                <li><a href="#">Актуальні події</a></li>
-                <li><a href="#">Рекомендовані Події</a></li>
-                <li><a href="#">Топові місця</a></li>
-                <li><a href="#" style="opacity: 0.5">City Card</a></li>
+                @foreach($data['categories'] as $category)
+                    @if($category['data_menu'] == 'now' & $category['left_sidebar_menu'] != 0)
+                        @foreach($category['left_sidebar_menu'] as $left_sidebar_menu)
+                            <li><a href="#">{{$left_sidebar_menu['title']}}</a></li>
+                            @if($left_sidebar_menu['children'] & $left_sidebar_menu['left_sidebar_droopdown'])
+                                @foreach($left_sidebar_menu['left_sidebar_droopdown'] as $left_sidebar_droopdown)
+                                    <ul class="dropdown">
+                                        <li>
+                                            <a class="" href="#">{{$left_sidebar_droopdown['title']}}</a>
+                                        </li>
+                                    </ul>
+                                @endforeach
+                            @endif
+                        @endforeach
+                    @endif
+                @endforeach
             </ul>
             <br>
-
             <br>
             <br>
             <div>

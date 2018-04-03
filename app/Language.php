@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Language extends Model
 {
     protected $fillable = [
-        'id', 'name', 'display_name','status'
+        'id', 'code','short_name', 'display_name','status'
     ];
 }

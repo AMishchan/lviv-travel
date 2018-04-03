@@ -3,16 +3,22 @@
     <div class="row">
         <div class="col-md-3 col-lg-3">
             <ul class="menu__nav mb-4">
-                <li><a href="#">Події у Львові</a>
-                    <ul class="menu__subnav">
-                        <li><a href="#">Мистецтво та Культура <span class="fw-regular">(12)</span></a></li>
-                        <li><a href="#">Фестивалі <span class="fw-regular">(4)</span></a></li>
-                        <li><a href="#">для Дітей <span class="fw-regular">(15)</span></a></li>
-                        <li><a href="#">Спорт <span class="fw-regular">(4)</span></a></li>
-                        <li><a href="#">Бізнес конференції <span class="fw-regular">(1)</span></a></li>
-                        <li><a href="#">Театр <span class="fw-regular">(6)</span></a></li>
-                    </ul>
-                </li>
+                @foreach($data['categories'] as $category)
+                    @if($category['data_menu'] == 'events' & $category['left_sidebar_menu'] != 0)
+                        @foreach($category['left_sidebar_menu'] as $left_sidebar_menu)
+                            <li><a href="#">{{$left_sidebar_menu['title']}}</a></li>
+                            @if($left_sidebar_menu['children'] & $left_sidebar_menu['left_sidebar_droopdown'])
+                                @foreach($left_sidebar_menu['left_sidebar_droopdown'] as $left_sidebar_droopdown)
+                                    <ul class="menu__subnav">
+                                        <li>
+                                            <a class="" href="#">{{$left_sidebar_droopdown['title']}}</a>
+                                        </li>
+                                    </ul>
+                                @endforeach
+                            @endif
+                        @endforeach
+                    @endif
+                @endforeach
             </ul>
             <div class="col-xs-12 col-md-6">
                 <div class="popup-socials">

@@ -6,6 +6,7 @@ use Closure;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Session;
+//use App\Language;
 
 
 class Locale
@@ -25,7 +26,10 @@ class Locale
         }
         else $locale = Config::get('app.locale');
         App::setLocale($locale);
+      //  dump(Session::all());
         Session::put('locale', $locale);
+     //   dd(Session::all());
+
         return $next($request);
     }
 }

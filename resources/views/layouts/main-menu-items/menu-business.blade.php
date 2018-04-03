@@ -1,17 +1,24 @@
-
 <div class="menu" id="business">
     <a href="#" class="btn-menu-back visible-xs visible-sm">Назад</a>
     <div class="row">
         <div class="col-sm-5 col-md-3 col-lg-3">
             <ul class="menu__nav mb-4 menu-trig">
-                <li><a href="#">Новини</a></li>
-                <li><a href="#">Про бізнес (бізнес у Львові)</a></li>
-                <li><a href="#">Бізнес події</a></li>
-                <li><a href="#">Заплануй подію</a></li>
-                <li><a href="#">Lviv Convention Bureau</a></li>
-                <li><a href="#">Invest in Lviv</a></li>
-                <li><a href="#">Загальна інформація</a></li>
-                <li><a href="#">Про нас</a></li>
+                @foreach($data['categories'] as $category)
+                    @if($category['data_menu'] == 'business' & $category['left_sidebar_menu'] != 0)
+                        @foreach($category['left_sidebar_menu'] as $left_sidebar_menu)
+                            <li><a href="#">{{$left_sidebar_menu['title']}}</a></li>
+                            @if($left_sidebar_menu['children'] & $left_sidebar_menu['left_sidebar_droopdown'])
+                                @foreach($left_sidebar_menu['left_sidebar_droopdown'] as $left_sidebar_droopdown)
+                                    <ul class="menu__subnav">
+                                        <li>
+                                            <a class="" href="#">{{$left_sidebar_droopdown['title']}}</a>
+                                        </li>
+                                    </ul>
+                                @endforeach
+                            @endif
+                        @endforeach
+                    @endif
+                @endforeach
             </ul>
             <div class="col-xs-12 col-md-6">
                 <div class="popup-socials">

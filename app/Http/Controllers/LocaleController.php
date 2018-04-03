@@ -11,8 +11,9 @@ class LocaleController extends Controller
     function index($locale)
     {
         if (in_array($locale, Config::get('app.locales'))) {   # Проверяем, что у пользователя выбран доступный язык
-            Session::put('locale', $locale);                    # И устанавливаем его в сессии под именем locale
+            Session::put('locale', $locale);                   # И устанавливаем его в сессии под именем locale
         }
+        //dd($locale);
         return redirect()->back();
     }
 

@@ -2,12 +2,24 @@
     <a href="#" class="btn-menu-back visible-xs visible-sm">Назад</a>
     <div class="row">
         <div class="col-sm-5 col-md-3 col-lg-3">
+            {{--{{dd($data['categories'])}}--}}
             <ul class="menu__nav mb-4 menu-trig">
-                <li><a href="#">До Львова</a></li>
-                <li><a href="#">Громадський транспорт</a></li>
-                <li><a href="#">Де зупинитись</a></li>
-                <li><a href="#">Путівники та карти</a></li>
-                <li><a href="#">Все що траба знати</a></li>
+                @foreach($data['categories'] as $category)
+                    @if($category['data_menu'] == 'planning' & $category['left_sidebar_menu'] != 0)
+                        @foreach($category['left_sidebar_menu'] as $left_sidebar_menu)
+                            <li><a href="#">{{$left_sidebar_menu['title']}}</a></li>
+                            @if($left_sidebar_menu['children'] & $left_sidebar_menu['left_sidebar_droopdown'])
+                                @foreach($left_sidebar_menu['left_sidebar_droopdown'] as $left_sidebar_droopdown)
+                                    <ul class="dropdown">
+                                        <li>
+                                            <a class="" href="#">{{$left_sidebar_droopdown['title']}}</a>
+                                        </li>
+                                    </ul>
+                                @endforeach
+                            @endif
+                        @endforeach
+                    @endif
+                @endforeach
             </ul>
             <div class="col-xs-12 col-md-6">
                 <div class="popup-socials">

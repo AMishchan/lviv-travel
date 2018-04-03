@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Session;
 use App\Language;
 use App\Menu;
-use App\Http\Controllers\MenuController;
 
 class MenuServiceProvider extends ServiceProvider
 {
@@ -34,6 +33,8 @@ class MenuServiceProvider extends ServiceProvider
         View::composer("layouts.front", function ($view) {
             $locale = Session::get('locale');
             $languages = Language::where('status', 1)->get();
+
+
 
 
             $categories = Menu::select('id', "title_$locale", 'path', 'parent_id', 'children', 'template', 'data_menu')
